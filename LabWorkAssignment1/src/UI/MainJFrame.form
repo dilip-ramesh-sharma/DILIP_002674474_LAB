@@ -1,0 +1,875 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+    <AuxValue name="designerSize" type="java.awt.Dimension" value="-84,-19,0,5,115,114,0,18,106,97,118,97,46,97,119,116,46,68,105,109,101,110,115,105,111,110,65,-114,-39,-41,-84,95,68,20,2,0,2,73,0,6,104,101,105,103,104,116,73,0,5,119,105,100,116,104,120,112,0,0,2,-123,0,0,3,99"/>
+  </AuxValues>
+
+  <Layout class="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout"/>
+  <SubComponents>
+    <Container class="javax.swing.JSplitPane" name="jSplitPane1">
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout" value="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout$BorderConstraintsDescription">
+          <BorderConstraints direction="Center"/>
+        </Constraint>
+      </Constraints>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JSplitPaneSupportLayout"/>
+      <SubComponents>
+        <Container class="javax.swing.JPanel" name="jPanel3">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="cc" green="ff" red="cc" type="rgb"/>
+            </Property>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JSplitPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JSplitPaneSupportLayout$JSplitPaneConstraintsDescription">
+              <JSplitPaneConstraints position="left"/>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="101" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace min="-2" pref="45" max="-2" attributes="0"/>
+                                      <Component id="labelHuskyDetails" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="103" alignment="0" groupAlignment="1" max="-2" attributes="0">
+                                      <Group type="102" alignment="1" attributes="0">
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Component id="labelNuid" alignment="0" min="-2" pref="31" max="-2" attributes="0"/>
+                                              <Component id="labelFirstName" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              <Component id="labelLastName" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              <Component id="labelCollegeName" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <EmptySpace min="-2" pref="151" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <EmptySpace min="-2" pref="144" max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Component id="textCollegeName" max="32767" attributes="0"/>
+                                              <Component id="textLastName" max="32767" attributes="0"/>
+                                              <Component id="textFirstName" max="32767" attributes="0"/>
+                                              <Component id="textNuid" alignment="0" max="32767" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="168" max="-2" attributes="0"/>
+                              <Component id="labelContactDetails" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="164" max="-2" attributes="0"/>
+                              <Component id="labelAddressDetail" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="190" max="-2" attributes="0"/>
+                              <Component id="labelOffice" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="181" max="-2" attributes="0"/>
+                              <Component id="save" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="184" max="-2" attributes="0"/>
+                              <Component id="labelPersonal" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="44" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace min="-2" pref="53" max="-2" attributes="0"/>
+                                      <Component id="labelCurrent" min="-2" pref="36" max="-2" attributes="0"/>
+                                      <EmptySpace max="32767" attributes="0"/>
+                                      <Component id="jLabel15" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="60" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" attributes="0">
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Group type="102" alignment="1" attributes="0">
+                                              <Component id="labelCurStreetName" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                                          </Group>
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <Component id="labelCurAptNo" min="-2" pref="36" max="-2" attributes="0"/>
+                                              <EmptySpace min="-2" pref="40" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="textCurStreetName" min="-2" pref="74" max="-2" attributes="0"/>
+                                          <Component id="textCurAptNo" alignment="1" min="-2" pref="74" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace pref="33" max="32767" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="labelPermStreetName" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="labelPermAptNo" alignment="0" min="-2" pref="36" max="-2" attributes="0"/>
+                                          <Group type="103" alignment="0" groupAlignment="1" max="-2" attributes="0">
+                                              <Component id="labelPermZipCode" alignment="0" max="32767" attributes="0"/>
+                                              <Component id="labelPermCity" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                      <EmptySpace min="-2" pref="38" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                          <Component id="textPermStreetName" alignment="0" pref="76" max="32767" attributes="0"/>
+                                          <Component id="textPermAptNo" alignment="0" max="32767" attributes="0"/>
+                                          <Component id="textPermCity" alignment="0" max="32767" attributes="0"/>
+                                          <Component id="textPermZipCode" alignment="0" max="32767" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <Group type="102" attributes="0">
+                                      <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                          <Component id="labelCurZipCode" alignment="0" min="-2" pref="45" max="-2" attributes="0"/>
+                                          <Component id="labelCurCity" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace min="31" pref="31" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="textCurCity" min="-2" pref="74" max="-2" attributes="0"/>
+                                          <Component id="textCurZipCode" alignment="1" min="-2" pref="74" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="74" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace min="-2" pref="1" max="-2" attributes="0"/>
+                                      <Component id="labelOfficePhone" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Component id="labelPersonalPhone" alignment="0" min="-2" pref="36" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="1" attributes="0">
+                                  <Component id="textOfficePhone" min="-2" pref="95" max="-2" attributes="0"/>
+                                  <Component id="textPersonalPhone" min="-2" pref="95" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="labelOfficeEmail" alignment="1" min="-2" max="-2" attributes="0"/>
+                                  <Component id="labelPersonalEmail" alignment="1" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="textPersonalEmail" pref="111" max="32767" attributes="0"/>
+                                  <Component id="textOfficeEmail" max="32767" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="29" max="-2" attributes="0"/>
+                      <Component id="labelHuskyDetails" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="labelNuid" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="textNuid" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="labelFirstName" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="textFirstName" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="labelLastName" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="textLastName" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="labelCollegeName" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="textCollegeName" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="labelContactDetails" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="labelOffice" min="-2" pref="13" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="labelOfficePhone" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="labelOfficeEmail" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="textOfficePhone" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="textOfficeEmail" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="labelPersonal" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="labelPersonalPhone" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="labelPersonalEmail" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="textPersonalPhone" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="textPersonalEmail" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="38" max="-2" attributes="0"/>
+                      <Component id="labelAddressDetail" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="labelCurrent" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel15" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="labelPermStreetName" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="textPermStreetName" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="labelPermAptNo" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="textPermAptNo" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="labelPermCity" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="textPermCity" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="labelPermZipCode" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="textPermZipCode" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="labelCurStreetName" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="textCurStreetName" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="labelCurAptNo" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="textCurAptNo" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="labelCurCity" alignment="1" min="-2" max="-2" attributes="0"/>
+                                  <Component id="textCurCity" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="labelCurZipCode" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="textCurZipCode" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <EmptySpace pref="17" max="32767" attributes="0"/>
+                      <Component id="save" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="labelHuskyDetails">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Enter Details for Husky Card"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="labelNuid">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="NUID"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="labelFirstName">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="First Name"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="labelLastName">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Last Name"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="labelCollegeName">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="College Name"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="labelContactDetails">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Contact Details:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="labelOffice">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Office"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="labelOfficePhone">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Phone"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="labelOfficeEmail">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Email ID"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="labelPersonal">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Personal"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="labelPersonalPhone">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Phone"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="labelPersonalEmail">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Email ID"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="labelAddressDetail">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Enter Address Details:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="labelCurrent">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Current"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel15">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Permanent"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="labelCurStreetName">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Street Name"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="labelCurAptNo">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Apt No."/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="labelCurCity">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="City/State"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="labelCurZipCode">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="ZipCode"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="labelPermStreetName">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Street Name"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="labelPermAptNo">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Apt No."/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="labelPermCity">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="City/State"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="labelPermZipCode">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="ZipCode"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="save">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Save"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="saveActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JTextField" name="textNuid">
+            </Component>
+            <Component class="javax.swing.JTextField" name="textFirstName">
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="textFirstNameActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JTextField" name="textLastName">
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="textLastNameActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JTextField" name="textCollegeName">
+            </Component>
+            <Component class="javax.swing.JTextField" name="textCurStreetName">
+            </Component>
+            <Component class="javax.swing.JTextField" name="textOfficePhone">
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="textOfficePhoneActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JTextField" name="textOfficeEmail">
+            </Component>
+            <Component class="javax.swing.JTextField" name="textPersonalPhone">
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="textPersonalPhoneActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JTextField" name="textPersonalEmail">
+            </Component>
+            <Component class="javax.swing.JTextField" name="textCurAptNo">
+            </Component>
+            <Component class="javax.swing.JTextField" name="textCurCity">
+            </Component>
+            <Component class="javax.swing.JTextField" name="textCurZipCode">
+            </Component>
+            <Component class="javax.swing.JTextField" name="textPermStreetName">
+            </Component>
+            <Component class="javax.swing.JTextField" name="textPermAptNo">
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="textPermAptNoActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JTextField" name="textPermCity">
+            </Component>
+            <Component class="javax.swing.JTextField" name="textPermZipCode">
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="jPanel4">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="cc" red="cc" type="rgb"/>
+            </Property>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JSplitPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JSplitPaneSupportLayout$JSplitPaneConstraintsDescription">
+              <JSplitPaneConstraints position="right"/>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="32" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="57" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                  <Group type="102" alignment="1" attributes="0">
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="jLabel41" alignment="0" min="-2" pref="31" max="-2" attributes="0"/>
+                                          <Component id="jLabel42" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jLabel43" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jLabel44" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace min="-2" pref="151" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace min="-2" pref="144" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="viewCollegeName" alignment="0" max="32767" attributes="0"/>
+                                          <Component id="viewLastName" alignment="0" max="32767" attributes="0"/>
+                                          <Component id="viewFirstName" alignment="0" max="32767" attributes="0"/>
+                                          <Component id="viewNuid" alignment="0" max="32767" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <Group type="103" alignment="0" groupAlignment="0" max="-2" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace min="-2" pref="53" max="-2" attributes="0"/>
+                                  <Component id="jLabel30" min="-2" pref="36" max="-2" attributes="0"/>
+                                  <EmptySpace max="32767" attributes="0"/>
+                                  <Component id="jLabel31" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="60" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" attributes="0">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Group type="102" alignment="1" attributes="0">
+                                          <Component id="jLabel32" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Component id="jLabel33" min="-2" pref="36" max="-2" attributes="0"/>
+                                          <EmptySpace min="-2" pref="40" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="viewCurStreetName" min="-2" pref="68" max="-2" attributes="0"/>
+                                      <Component id="viewCurAptNo" alignment="1" min="-2" pref="68" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace pref="39" max="32767" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="jLabel36" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabel37" alignment="0" min="-2" pref="36" max="-2" attributes="0"/>
+                                      <Group type="103" alignment="0" groupAlignment="1" max="-2" attributes="0">
+                                          <Component id="jLabel40" alignment="0" max="32767" attributes="0"/>
+                                          <Component id="jLabel38" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <EmptySpace min="-2" pref="38" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                      <Component id="viewPermCity" alignment="0" pref="60" max="32767" attributes="0"/>
+                                      <Component id="viewPermAptNo" alignment="0" pref="60" max="32767" attributes="0"/>
+                                      <Component id="viewPermZipCode" alignment="0" pref="60" max="32767" attributes="0"/>
+                                      <Component id="viewPermStreetName" alignment="0" max="32767" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <Group type="102" attributes="0">
+                                  <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                      <Component id="jLabel35" alignment="0" min="-2" pref="45" max="-2" attributes="0"/>
+                                      <Component id="jLabel34" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace min="31" pref="31" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="viewCurCity" min="-2" pref="68" max="-2" attributes="0"/>
+                                      <Component id="viewCurZipCode" alignment="1" min="-2" pref="68" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace min="-2" pref="1" max="-2" attributes="0"/>
+                                      <Component id="jLabel24" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Component id="jLabel27" alignment="0" min="-2" pref="36" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="1" attributes="0">
+                                  <Component id="viewOffPhone" min="-2" pref="80" max="-2" attributes="0"/>
+                                  <Component id="viewPersPhone" min="-2" pref="80" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="jLabel25" alignment="1" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel28" alignment="1" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="viewPersEmail" pref="103" max="32767" attributes="0"/>
+                                  <Component id="viewOffEmail" max="32767" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="120" max="-2" attributes="0"/>
+                              <Component id="jLabel29" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="146" max="-2" attributes="0"/>
+                              <Component id="jLabel46" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="140" max="-2" attributes="0"/>
+                              <Component id="jLabel26" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="124" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="1" attributes="0">
+                                  <Component id="jLabel39" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel45" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <EmptySpace pref="53" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="36" max="-2" attributes="0"/>
+                      <Component id="jLabel39" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabel41" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="viewNuid" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabel42" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="viewFirstName" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabel43" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="viewLastName" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabel44" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="viewCollegeName" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="jLabel45" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="jLabel46" min="-2" pref="13" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabel24" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel25" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="viewOffPhone" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="viewOffEmail" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="jLabel26" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabel27" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel28" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="viewPersPhone" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="viewPersEmail" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="38" max="-2" attributes="0"/>
+                      <Component id="jLabel29" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabel30" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel31" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="jLabel36" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="viewPermStreetName" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="jLabel37" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="viewPermAptNo" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="jLabel38" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="viewPermCity" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="jLabel40" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="viewPermZipCode" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="jLabel32" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="viewCurStreetName" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="jLabel33" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="viewCurAptNo" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="jLabel34" alignment="1" min="-2" max="-2" attributes="0"/>
+                                  <Component id="viewCurCity" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="jLabel35" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="viewCurZipCode" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <EmptySpace pref="41" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="jLabel24">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Phone"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel25">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Email ID"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="viewCurStreetName">
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel26">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Personal"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel27">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Phone"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="viewOffPhone">
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="viewOffPhoneActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel28">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Email ID"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel29">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Enter Address Details:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="viewOffEmail">
+            </Component>
+            <Component class="javax.swing.JTextField" name="viewPersPhone">
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel30">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Current"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="viewPersEmail">
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel31">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Permanent"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="viewCurAptNo">
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel32">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Street Name"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="viewCurCity">
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel33">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Apt No."/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel34">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="City/State"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel35">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="ZipCode"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="viewCurZipCode">
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel36">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Street Name"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="viewPermStreetName">
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="viewPermStreetNameActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel37">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Apt No."/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="viewPermAptNo">
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="viewPermAptNoActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel38">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="City/State"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel39">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Husky Details"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel40">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="ZipCode"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel41">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="NUID"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel42">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="First Name"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="viewPermCity">
+            </Component>
+            <Component class="javax.swing.JTextField" name="viewPermZipCode">
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel43">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Last Name"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="viewNuid">
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel44">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="College Name"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="viewFirstName">
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="viewFirstNameActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel45">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Contact Details:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="viewLastName">
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="viewLastNameActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel46">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Office"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="viewCollegeName">
+            </Component>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
